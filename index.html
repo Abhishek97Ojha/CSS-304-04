@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CSS-304-04</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 99.99vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .parent{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black; */
+            background-color: #0d0620;
+        }
+        .child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+            height: 100%;
+            width: 13%;
+            font-weight:600;
+            color: darkgrey;
+            font-size: large;
+        }
+        .child8, .child9{
+            width: 5%;
+            font-size:larger;
+            color: white;
+        }
+        .child9{
+            font-size:x-large;
+        }
+        .child1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+       <div class="child1 child">My Voot</div>
+       <div class="child2 child">Premium</div>
+       <div class="child3 child">Sports</div>
+       <div class="child4 child">Shows</div>
+       <div class="child5 child">Movies</div>
+       <div class="child6 child">Kids</div>
+       <div class="child7 child">Channels</div>
+       <div class="child8 child">
+        <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+       <div class="child9 child">
+        <i class="fa-regular fa-circle-user"></i></i>
+       </div>
+    </div>
+</body>
+</html>
